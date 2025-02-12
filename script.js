@@ -68,3 +68,19 @@ h3_aside_3.addEventListener('click', function(){
         box_aside_9.style.display = 'none'
     }
 })
+box_aside_4.addEventListener('click', function(){
+    window.location.href = 'https://www.google.com/maps/place/SELM+-+Sistema+de+Ensino+L%C3%A1pis+na+M%C3%A3o/@-7.1827787,-34.8646667,1077m/data=!3m2!1e3!4b1!4m6!3m5!1s0x7ace9b4e60b3e9d:0x36d966101895d28!8m2!3d-7.1827787!4d-34.8646667!16s%2Fg%2F11ghff2r2l?entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
+})
+box_aside_5.addEventListener('click', function(){
+    window.location.href = 'https://www.google.com/maps/place/SELM+-+Sistema+de+Ensino+L%C3%A1pis+na+M%C3%A3o+2/@-7.1830463,-34.8635418,1077m/data=!3m2!1e3!4b1!4m6!3m5!1s0x7ace962f5e51ebf:0x4e0269a36f67b10e!8m2!3d-7.1830463!4d-34.8635418!16s%2Fg%2F11shxhc394?entry=ttu&g_ep=EgoyMDI1MDIxMC4wIKXMDSoASAFQAw%3D%3D'
+})
+
+const whatsapp = document.querySelector('.whatsapp-img')
+const instagram = document.querySelector('.instagram-img')
+
+whatsapp.addEventListener('click', function(){
+    window.location.href = 'https://api.whatsapp.com/send?l=pt-BR&phone=558335762568'
+})
+instagram.addEventListener('click', function(){
+    window.location.href = 'https://www.instagram.com/vemserselm/'
+})
